@@ -9,6 +9,8 @@ import Lab2Bai2 from '../components/lab2bai2.vue';
 import Lab2Bai3 from '../components/lab2bai3.vue';
 import Lab3Bai1 from '../components/lab3bai1.vue';
 import Lab3Bai2 from '../components/lab3bai2.vue';
+import Lab3Bai3 from '../components/lab3bai3.vue';
+import Lab3Bai4 from '../components/lab3bai4.vue';
 
 const routes = [
     { path: '/bai4', component: HomePage },
@@ -21,6 +23,8 @@ const routes = [
     { path: '/lab2bai3', component: Lab2Bai3},
     { path: '/lab3bai1', component: Lab3Bai1},
     { path: '/lab3bai2', component: Lab3Bai2},
+    { path: '/lab3bai3', component: Lab3Bai3},
+    { path: '/lab3bai4', component: Lab3Bai4},
 ];
 
 

@@ -39,8 +39,8 @@
             <ul class="dropdown-menu" aria-labelledby="lab2Dropdown">
               <li><a class="dropdown-item" href="/lab3bai1">bài 1</a></li>
               <li><a class="dropdown-item" href="/lab3bai2">bài 2</a></li>
-              <li><a class="dropdown-item" href="/lab2bai3">bài 3</a></li>
-              <li><a class="dropdown-item" href="/lab2bai4">bài 4</a></li>
+              <li><a class="dropdown-item" href="/lab3bai3">bài 3</a></li>
+              <li><a class="dropdown-item" href="/lab3bai4">bài 4</a></li>
             </ul>
           </li>
           

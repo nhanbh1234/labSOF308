@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container">
@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-list"></i> Bài viết</a>
+              <a class="nav-link" href="/lab3bai3"><i class="fas fa-list"></i> Bài viết</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fas fa-video"></i> Video</a>
@@ -61,6 +61,7 @@
       </div>
     </nav>
 
+    <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -124,6 +125,23 @@
               <span class="badge bg-primary rounded-pill">99</span>
             </li>
           </ul>
+
+          <h3 class="text-info mt-4">Đọc nhiều</h3>
+          <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+              <img src="../images/corevalue.jpg" class="img-thumbnail me-2" style="width: 50px;" alt="Popular Post 1" />
+              <a class="nav-link" href="#">Biết ơn đời, đời sẽ thương ta</a>
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <img src="../images/sesameoil_300x300.jpg" class="img-thumbnail me-2" style="width: 50px;" alt="Popular Post 2" />
+              <a class="nav-link" href="#">10 công dụng bất ngờ từ dầu dừa</a>
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <img src="../images/eat-clean.png" class="img-thumbnail me-2" style="width: 50px;" alt="Popular Post 3" />
+              <a class="nav-link" href="#">Lợi ích khi ăn rau mỗi ngày</a>
+            </li>
+          </ul>
+
         </aside>
 
         <!-- Blog Section -->
@@ -147,30 +165,83 @@
             </div>
 
             <!-- Related Posts -->
-            <div class="col-md-4">
-              <ul class="list-group">
-                <img src="../images/corevalue.jpg" class="card-img-top" alt="Blog post" />
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a class="nav-link" href="#">Biết ơn đời, đời sẽ thương ta</a>
-                  <span class="badge bg-secondary"><i class="fas fa-comments"></i> 30</span>
-                </li>
-                <img src="../images/orange_300x300.jpg" class="card-img-top" alt="Blog post" />
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a class="nav-link" href="#">9 tác dụng tuyệt vời của quả cam</a>
-                  <span class="badge bg-secondary"><i class="fas fa-comments"></i> 28</span>
-                </li>
-                <img src="../images/sesameoil_300x300.jpg" class="card-img-top" alt="Blog post" />
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a class="nav-link" href="#">10 công dụng bất ngờ từ dầu dừa</a>
-                  <span class="badge bg-secondary"><i class="fas fa-comments"></i> 15</span>
-                </li>
-                <img src="../images/eat-clean.png" class="card-img-top" alt="Blog post" />
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a class="nav-link" href="#">Lợi ích khi ăn rau mỗi ngày</a>
-                  <span class="badge bg-secondary"><i class="fas fa-comments"></i> 12</span>
-                </li>
-              </ul>
+<div class="col-md-4">
+  <ul class="list-group">
+    <li class="list-group-item d-flex">
+      <img src="../images/corevalue.jpg" class="related-img" alt="Blog post" />
+      <div class="related-content">
+        <a class="nav-link" href="#">Biết ơn đời, đời sẽ thương ta</a>
+        <span class="badge bg-secondary"><i class="fas fa-comments"></i> 30</span>
+      </div>
+    </li>
+    <li class="list-group-item d-flex">
+      <img src="../images/orange_300x300.jpg" class="related-img" alt="Blog post" />
+      <div class="related-content">
+        <a class="nav-link" href="#">9 tác dụng tuyệt vời của quả cam</a>
+        <span class="badge bg-secondary"><i class="fas fa-comments"></i> 28</span>
+      </div>
+    </li>
+    <li class="list-group-item d-flex">
+      <img src="../images/sesameoil_300x300.jpg" class="related-img" alt="Blog post" />
+      <div class="related-content">
+        <a class="nav-link" href="#">10 công dụng bất ngờ từ dầu dừa</a>
+        <span class="badge bg-secondary"><i class="fas fa-comments"></i> 15</span>
+      </div>
+    </li>
+    <li class="list-group-item d-flex">
+      <img src="../images/eat-clean.png" class="related-img" alt="Blog post" />
+      <div class="related-content">
+        <a class="nav-link" href="#">Lợi ích khi ăn rau mỗi ngày</a>
+        <span class="badge bg-secondary"><i class="fas fa-comments"></i> 12</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+            <div class="col-md-8">
             </div>
+            <h2 class="section-header mb-3 text-info">VIDEO - ĐỪNG BỎ LỠ</h2>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="card">
+                <img src="../images/video2.jpg" class="card-img-top" alt="Video 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Chút tâm tư những ngày cuối năm</h5>
+                  <p class="card-text">Guồng quay cuộc sống đầu co với vàng...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="card">
+                <img src="../images/video2.jpg" class="card-img-top" alt="Video 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Chút tâm tư những ngày cuối năm</h5>
+                  <p class="card-text">Guồng quay cuộc sống đầu co với vàng...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="card">
+                <img src="../images/video2.jpg" class="card-img-top" alt="Video 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Chút tâm tư những ngày cuối năm</h5>
+                  <p class="card-text">Guồng quay cuộc sống đầu co với vàng...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="card">
+                <img src="../images/video2.jpg" class="card-img-top" alt="Video 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Chút tâm tư những ngày cuối năm</h5>
+                  <p class="card-text">Guồng quay cuộc sống đầu co với vàng...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-info text-white mt-3">Xem thêm</button>
+
           </div>
         </section>
       </div>
@@ -181,7 +252,8 @@
       <p>&copy;Copyright by FPT Polytechnic</p>
     </footer>
   </div>
-  </template>
+</template>
+
   
   <script>
   export default {
