@@ -39,8 +39,34 @@
             <ul class="dropdown-menu" aria-labelledby="lab2Dropdown">
               <li><a class="dropdown-item" href="/lab3bai1">bài 1</a></li>
               <li><a class="dropdown-item" href="/lab3bai2">bài 2</a></li>
-              <li><a class="dropdown-item" href="/lab2bai3">bài 3</a></li>
-              <li><a class="dropdown-item" href="/lab2bai4">bài 4</a></li>
+              <li><a class="dropdown-item" href="/lab3bai3">bài 3</a></li>
+              <li><a class="dropdown-item" href="/lab3bai4">bài 4</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="lab5Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lab 5
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="lab2Dropdown">
+              <li><a class="dropdown-item" href="/lab5bai1">bài 1</a></li>
+              <li><a class="dropdown-item" href="/lab5bai2">bài 2</a></li>
+              <li><a class="dropdown-item" href="/lab5bai3">bài 3</a></li>
+              
+              
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="lab5Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lab 6
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="lab2Dropdown">
+              <li><a class="dropdown-item" href="/lab6bai1">bài 1</a></li>
+              <li><a class="dropdown-item" href="/lab6bai2">bài 2</a></li>
+              <li><a class="dropdown-item" href="/lab5bai3">bài 3</a></li>
+              <li><a class="dropdown-item" href="/lab6bai4">bài 4</a></li>
+              
             </ul>
           </li>
           

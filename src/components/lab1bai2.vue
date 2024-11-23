@@ -54,7 +54,7 @@
 
 <script>
 export default {
-  name: "BlogPage"
+  name: "BlogPage1"
 };
 </script>
 

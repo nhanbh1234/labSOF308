@@ -1,0 +1,108 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.section-header {
+    color: #17a2b8;
+}
+
+.related-img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    margin-right: 10px; /* Space between image and text */
+    object-fit: cover;
+  }
+  
+  .related-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .related-content .nav-link {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .related-content .badge {
+    align-self: start;
+    margin-top: 4px; /* Adjust spacing as needed */
+  }
+  .featured-posts {
+    padding-left: 0;
+  }
+  
+  .featured-post {
+    display: flex;
+    align-items: start;
+  }
+  
+  .featured-post-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .featured-post-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .featured-post-text {
+    font-size: 14px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .text-center {
+    text-align: center;
+  }
+ 
+  .article-title {
+    color: #007bff;
+  }
+  .article-section img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .article-section p, .article-section h5 {
+    line-height: 1.6;
+  }
+  .comment-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  .comment-header {
+    font-weight: bold;
+    color: #333;
+  }
+  .comment-list li {
+    margin-bottom: 10px;
+  }
+
+  .content-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 8px; /* Optional: adds rounded corners */
+    background-color: #f9f9f9; /* Optional: changes the background color */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.button-group .btn {
+  padding: 5px 50px; /* Adjust padding for smaller buttons */
+  font-size: 12px; /* Adjust font size for smaller buttons */
+}
+
