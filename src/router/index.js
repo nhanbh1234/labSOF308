@@ -11,6 +11,7 @@ import Lab3Bai1 from '../components/lab3bai1.vue';
 import Lab3Bai2 from '../components/lab3bai2.vue';
 import Lab3Bai3 from '../components/lab3bai3.vue';
 import Lab3Bai4 from '../components/lab3bai4.vue';
+<<<<<<< HEAD
 import Lab5Bai1 from '../components/lab5bai1.vue';
 import Lab5Bai2 from '../components/lab5bai2.vue';
 import Lab5Bai3 from '../components/lab5bai3.vue';
@@ -22,6 +23,8 @@ import Lab6Bai2 from '../components/lab6bai2.vue';
 
 import Lab6Bai4 from '../components/lab6bai4.vue';
 
+=======
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
 
 const routes = [
     { path: '/bai4', component: HomePage },
@@ -36,6 +39,7 @@ const routes = [
     { path: '/lab3bai2', component: Lab3Bai2},
     { path: '/lab3bai3', component: Lab3Bai3},
     { path: '/lab3bai4', component: Lab3Bai4},
+<<<<<<< HEAD
     { path: '/lab5bai1', component: Lab5Bai1},
     { path: '/lab5bai2', component: Lab5Bai2},
     { path: '/lab5bai3', component: Lab5Bai3},
@@ -45,6 +49,8 @@ const routes = [
     { path: '/lab6bai2', component: Lab6Bai2},
 
     { path: '/lab6bai4', component: Lab6Bai4},
+=======
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
 ];
 
 

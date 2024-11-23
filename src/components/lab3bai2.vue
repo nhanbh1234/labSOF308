@@ -18,7 +18,11 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+<<<<<<< HEAD
               <a class="nav-link" href="lab3bai3.vue"><i class="fas fa-list"></i> Bài viết</a>
+=======
+              <a class="nav-link" href="/lab3bai3"><i class="fas fa-list"></i> Bài viết</a>
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
             </li>
             <li class="nav-item">
               <a class="nav-link" href="user.vue"><i class="fas fa-video"></i> Người dùng</a>

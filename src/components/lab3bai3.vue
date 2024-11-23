@@ -1,7 +1,13 @@
 <template>
+<<<<<<< HEAD
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
+=======
+    <div>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="../images/logo-energy-pilates.png" alt="Logo" style="width: 150px;" />
@@ -34,7 +40,34 @@
           </div>
         </div>
       </nav>
+<<<<<<< HEAD
     <div>
+=======
+  
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/banner1.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/banner2.jpg" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/banner3.jpg" class="d-block w-100" alt="Slide 3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+  
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
       <!-- Main Content with Sidebar -->
       <div class="container mt-4">
         <div class="row">

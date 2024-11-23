@@ -41,6 +41,7 @@
               <li><a class="dropdown-item" href="/lab3bai2">bài 2</a></li>
               <li><a class="dropdown-item" href="/lab3bai3">bài 3</a></li>
               <li><a class="dropdown-item" href="/lab3bai4">bài 4</a></li>
+<<<<<<< HEAD
             </ul>
           </li>
 
@@ -67,6 +68,8 @@
               <li><a class="dropdown-item" href="/lab5bai3">bài 3</a></li>
               <li><a class="dropdown-item" href="/lab6bai4">bài 4</a></li>
               
+=======
+>>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
             </ul>
           </li>
           
