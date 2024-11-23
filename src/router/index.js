@@ -11,20 +11,12 @@ import Lab3Bai1 from '../components/lab3bai1.vue';
 import Lab3Bai2 from '../components/lab3bai2.vue';
 import Lab3Bai3 from '../components/lab3bai3.vue';
 import Lab3Bai4 from '../components/lab3bai4.vue';
-<<<<<<< HEAD
 import Lab5Bai1 from '../components/lab5bai1.vue';
 import Lab5Bai2 from '../components/lab5bai2.vue';
 import Lab5Bai3 from '../components/lab5bai3.vue';
-
-
-
 import Lab6Bai1 from '../components/lab6bai1.vue';
 import Lab6Bai2 from '../components/lab6bai2.vue';
-
 import Lab6Bai4 from '../components/lab6bai4.vue';
-
-=======
->>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
 
 const routes = [
     { path: '/bai4', component: HomePage },
@@ -32,27 +24,20 @@ const routes = [
     { path: '/bai3', component: About },
     { path: '/bai1', component: Lab1Bai1Component },
     { path: '/lab2bai4', component: Lab2Bai4Component },
-    { path: '/lab2bai1', component: Lab2Bai1},
-    { path: '/lab2bai2', component: Lab2Bai2},
-    { path: '/lab2bai3', component: Lab2Bai3},
-    { path: '/lab3bai1', component: Lab3Bai1},
-    { path: '/lab3bai2', component: Lab3Bai2},
-    { path: '/lab3bai3', component: Lab3Bai3},
-    { path: '/lab3bai4', component: Lab3Bai4},
-<<<<<<< HEAD
-    { path: '/lab5bai1', component: Lab5Bai1},
-    { path: '/lab5bai2', component: Lab5Bai2},
-    { path: '/lab5bai3', component: Lab5Bai3},
-   
-
-    { path: '/lab6bai1', component: Lab6Bai1},
-    { path: '/lab6bai2', component: Lab6Bai2},
-
-    { path: '/lab6bai4', component: Lab6Bai4},
-=======
->>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
+    { path: '/lab2bai1', component: Lab2Bai1 },
+    { path: '/lab2bai2', component: Lab2Bai2 },
+    { path: '/lab2bai3', component: Lab2Bai3 },
+    { path: '/lab3bai1', component: Lab3Bai1 },
+    { path: '/lab3bai2', component: Lab3Bai2 },
+    { path: '/lab3bai3', component: Lab3Bai3 },
+    { path: '/lab3bai4', component: Lab3Bai4 },
+    { path: '/lab5bai1', component: Lab5Bai1 },
+    { path: '/lab5bai2', component: Lab5Bai2 },
+    { path: '/lab5bai3', component: Lab5Bai3 },
+    { path: '/lab6bai1', component: Lab6Bai1 },
+    { path: '/lab6bai2', component: Lab6Bai2 },
+    { path: '/lab6bai4', component: Lab6Bai4 },
 ];
-
 
 const router = createRouter({
     history: createWebHistory(),

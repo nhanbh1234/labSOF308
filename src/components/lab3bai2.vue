@@ -18,18 +18,35 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-<<<<<<< HEAD
-              <a class="nav-link" href="lab3bai3.vue"><i class="fas fa-list"></i> Bài viết</a>
-=======
               <a class="nav-link" href="/lab3bai3"><i class="fas fa-list"></i> Bài viết</a>
->>>>>>> df6883fe532604f0d56e3ff263edfc015c04f2b1
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="user.vue"><i class="fas fa-video"></i> Người dùng</a>
+              <a class="nav-link" href="#"><i class="fas fa-video"></i> Video</a>
             </li>
-            
-            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-calendar-alt"></i> Sự kiện</a>
+            </li>
 
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="accountDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-user"></i> Tài khoản
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                <li><a class="dropdown-item" href="#">Đăng ký thành viên</a></li>
+              </ul>
+            </li>
           </ul>
 
           <ul class="navbar-nav">
@@ -142,10 +159,7 @@
                     Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, Pilates giúp cơ bắp và các khớp mạnh hơn, kéo giãn hơn...
                   </p>
                   <p><span class="text-muted"><i class="fas fa-comments"></i> 16</span></p>
-                  <a href="lab3bai4.vue">
-    <button class="btn btn-info text-white">Xem thêm</button>
-</a>
-
+                  <button class="btn btn-info text-white">Xem thêm</button>
                 </div>
               </div>
             </div>
